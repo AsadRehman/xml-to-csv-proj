@@ -120,7 +120,7 @@ public class XMLtoCSV {
                     src.add(allSource[1]);
                 }
             }
-            // Adding loop for target length
+           
             for (int j = 0; j < lengthTarget; j++) {
             if (nlTarget.item(j).getNodeType() == Node.ELEMENT_NODE) {
                 Element elR = (Element) nlTarget.item(j);
